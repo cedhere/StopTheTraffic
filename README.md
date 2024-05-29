@@ -1,2 +1,2 @@
 # StopTheTraffic
-In Spring 2024 I took the Introduction to Web Development CodePath course.
+In the Spring of 2024, I completed the Introduction to Web Development CodePath course. During the course, I learned about web development using HTML/CSS and JavaScript. One of our assignments was to create a one-page website addressing a global issue. I chose to focus on human trafficking. As I progressed through the course, I continued to update the website with new features as my skills improved. Completing this website was a significant achievement for me. While it may not be perfect, it serves as a great starting point for my web development journey. I'm excited to see how my skills will continue to grow and what I'll create next!
