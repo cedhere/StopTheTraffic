@@ -1,0 +1,365 @@
+html {
+  height: 100%;
+  width: 100%;
+}
+
+body {
+  background-color: #556b2f;
+}
+
+/* Style for the navigation bar */
+.navbar ul{
+  list-style-type: none;
+  overflow: hidden;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  margin-bottom: 10px;
+  z-index: 1000;
+}
+
+.navbar li {
+  float: left;
+  margin: 15px;
+  background-color: #81422c;
+}
+
+.navbar li a {
+  display: block;
+  text-decoration: none;
+  color: white;
+  text-align: center;
+  padding: 10px;
+}
+
+.navbar a:hover {
+  color: black;
+}
+/* End of style for navigation bar */
+
+/* The style for the dark mode button*/
+#theme-button {
+  background-color: #81422c;
+  border-color: #81422c;
+  color: white;
+  text-align: center;
+  padding: 10px;
+  font: georgia;
+}
+
+/* Style when dark mode is triggered */
+.dark-mode {
+  background-color: black;
+  color: white;
+}
+
+.dark-mode li {
+  background-color: #525252;
+}
+
+.dark-mode #theme-button {
+  background-color: #525252;
+  border-color: #525252;
+}
+
+.dark-mode .header-container {
+  background-color: black;
+}
+
+.dark-mode .header-item:nth-of-type(1) {
+  background-color: #525252;
+}
+
+.dark-mode .learn-item:nth-of-type(1) {
+  background-color: #525252;
+}
+
+.dark-mode .learn-item2:nth-of-type(2) {
+  background-color: #525252;
+}
+
+.dark-mode #organization-1 {
+  background-color: #525252;
+  border-radius: 5px;
+  border-color: white;
+}
+
+.dark-mode #organization-2 {
+  background-color: #525252;
+  border-radius: 5px;
+  border-color: white;
+}
+
+.dark-mode #organization-3 {
+  background-color: #525252;
+}
+
+.dark-mode .header-buttons {
+  background-color: #525252;
+  color: white;
+  font-size: 20px;
+  padding: 10px;
+  margin: 10px;
+  border-color: #525252;
+  font: georgia;
+}
+
+.dark-mode .org-buttons {
+  background-color: #525252;
+  color: white;
+  font-size: 20px;
+  padding: 10px;
+  margin: 10px;
+  border-color: #525252;
+  font: georgia;
+}
+
+.dark-mode .about-container {
+  background-color: #525252;
+}
+
+.dark-mode .modal-content {
+  background-color: #525252;
+}
+
+/* End of dark mode section */
+
+/* Style for the header of the page*/
+.header-container {
+  padding: 10px;
+  display: flex;
+}
+
+.header-item:nth-of-type(1){
+  text-align: center;
+  width: 50%;
+}
+
+.header-item:nth-of-type(2) {
+  width: 50%;
+  text-align: center;
+  color: white;
+  font: georgia;
+}
+
+#header-img {
+  margin: 10px;
+  padding: 20px;
+}
+
+.header-buttons {
+  background-color: #81422c;
+  color: white;
+  font-size: 20px;
+  padding: 10px;
+  margin: 10px;
+  border-color: #81422c;
+  font: georgia;
+}
+
+img {
+  max-width: 50%;
+  height: auto;
+}
+
+.learn-container {
+  display: flex;
+  justify-content: space-between;
+  padding: 20px;
+  margin: 20px;
+}
+
+.learn-item:nth-of-type(1){
+  width: 40%;
+  text-align: center;
+  color: white;
+  font: georgia;
+  font-size: 19px;
+  background-color: #81422c;
+}
+
+.learn-item:nth-of-type(2) {
+  text-align: center;
+  width: 60%;
+}
+
+.learn-item2:nth-of-type(1){
+  text-align: center;
+  width: 50%;
+  size: 20px;
+}
+
+.learn-item2:nth-of-type(2){ 
+  width: 50%;
+  text-align: center;
+  color: white;
+  font: georgia;
+  font-size: 19px;
+  background-color: #81422c;
+}
+
+#video-style {
+  text-align: center;
+  color: white;
+  padding: 20px;
+}
+
+.source {
+  font-size: 15px;
+  position: absolute;
+}
+
+/* Connect section styles */
+#connect {
+  font-size: 50px;
+  color: white;
+  text-align: center;
+}
+
+.connect-container {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+#connect-desc {
+  color: white;
+  text-align: center;
+  font: georgia;
+  font-size: 25px;
+}
+
+#organization-1{
+  background-color: #81422c;
+  width: 20%;
+  border-radius: 5px;
+  text-align: center;
+  color: white;
+}
+
+#organization-2{
+  background-color: #81422c;
+  width: 20%;
+  border-radius: 5px;
+  text-align: center;
+  color: white
+}
+
+#organization-3{
+  background-color: #81422c;
+  width: 20%;
+  border-radius: 5px;
+  text-align: center;
+  color: white;
+}
+
+.org-buttons {
+  background-color: #81422c;
+  color: white;
+  font-size: 20px;
+  padding: 10px;
+  margin: 10px;
+  border-color: #81422c;
+  font: georgia;
+}
+
+.petition-container {
+  display: flex;
+  flex-direction: row;
+  gap: 20px;
+  width: 100;
+  padding-bottom: 50px;
+  color: white;
+}
+
+.petition-para {
+  width: 55%;
+  padding-right: 10px;
+  font-size: 20px;
+}
+
+.signatures {
+  width: 45%;
+  padding-right: 10px;
+
+}
+
+.error {
+  border-style: solid;
+  border-width: 2px;
+  border-color: red;
+  background:pink;
+}
+
+#sign-petition {
+  color: white;
+}
+
+.revealable {
+  position: relative;
+  transform: translateY(150px);
+  opacity: 0;
+  transition: all 2s ease;
+}
+
+.active {
+  transform: translateY(0px);
+  opacity: 1;
+}
+
+/* the modal that covers the background and prevents user interactions */
+.modal {
+  display: none; /* hides the modal from view by default*/
+  position: fixed; /* keeps the modal in one place */
+  z-index: 2; /* positions the modal on top of all other elements on the screen */
+  left: 0;
+  top: 0;
+  width: 100%; /* Full width */
+  height: 100%; /* Full height */
+  background-color: rgba(0,0,0,0.4); /* 40% opacity black - other elements can still be seen */
+  flex-direction: column; /* these flexbox rules center the content on the screen */
+  align-items: center;
+  justify-content: center;
+}
+
+/* box that contains all the content and images */
+.modal-content {
+  background-color: #81422c;
+  color: white;
+  text-align: center;
+  font-size: 3rem;
+  display: flex; /* adds flexbox to center all items */
+  justify-content: center;
+  align-items: center;
+}
+
+#thanks-modal-content {
+  width: 20rem; /* sets a default width for the text container */
+}
+
+#modal-text-container {
+  display: flex; /* adds flexbox to center the text and buttons (stretch feature) */
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+
+/* The about section */
+.about-container {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  background-color: #81422c;
+  width: 50%;
+  color: white;
+  margin: 0 auto;
+  font-size: 20px;
+  
+}
+
+#about-section {
+  text-align: center;
+  color: white;
+  font-size: 30px;
+}
+
